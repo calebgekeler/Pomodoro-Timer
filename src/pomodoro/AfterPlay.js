@@ -25,7 +25,7 @@ function AfterPlay({data}){
     }
   }
 
-
+  if(data.displayTimer === true){
     return(
     <div>
         <div className="row mb-2">
@@ -53,5 +53,7 @@ function AfterPlay({data}){
         </div>
     </div>
     )
+  }
+  return null;
 }
     export default AfterPlay;
