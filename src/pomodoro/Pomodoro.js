@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import classNames from "../utils/class-names";
 import useInterval from "../utils/useInterval";
-import {minutesToDuration} from '../utils/duration';
-//import {secondsToDuration} from '../utils/duration';
 import AfterPlay from './AfterPlay'
 import LandingDisplay from './LandingDisplay'
 
@@ -113,9 +110,6 @@ function Pomodoro() {
       <LandingDisplay 
         data={data}
         fnObj={fnObj}
-        stopHandler={fnObj.stopHandler} 
-        playPause={fnObj.playPause}
-        setData={setData}
       />
       <AfterPlay data={data} />
     </div>

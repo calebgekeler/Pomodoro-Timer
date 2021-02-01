@@ -1,6 +1,5 @@
 import React from 'react';
 import {minutesToDuration} from '../utils/duration';
-import {secondsToDuration} from '../utils/duration';
 import classNames from "../utils/class-names";
 
 
